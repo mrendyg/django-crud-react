@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-export function Navegation() {
+function Navegation() {
     return (
         <div>
             <Link to="/task">
@@ -10,3 +10,5 @@ export function Navegation() {
         </div>
     )
 }
+
+export default Navegation

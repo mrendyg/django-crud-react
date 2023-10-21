@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getAllTasks } from "../api/task.api.js";
 
-export function TasksList() {
+function TasksList() {
   useEffect(() => {
     
     function loadTasks() {
@@ -13,3 +13,5 @@ export function TasksList() {
 
   return <div>TaksList</div>;  
 };
+
+export default TasksList;

@@ -1,6 +1,7 @@
 import { TasksList } from "../components/TasksList"
 
-export function TaskPage(){
+function TaskPage(){
     return <TasksList/>
 }
-
+ 
+export default TaskPage;

@@ -4,7 +4,7 @@ import { getAllTasks } from "../api/task.api.js";
 /**Este es un componente que envio a mis paginas (en este caso a 
  * TaskPage) para mostrarlo como link */
 
-function TasksList() {
+export function TasksList() {
   useEffect(() => {
     
     function loadTasks() {
@@ -16,5 +16,3 @@ function TasksList() {
 
   return <div>TaksList</div>;  
 };
-
-export default TasksList;
